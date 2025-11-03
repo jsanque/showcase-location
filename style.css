@@ -1,0 +1,30 @@
+.nav-link{
+    color: green;
+}
+.hero {
+  height: 100vh;
+  background: url('bg-hero.jpeg');
+  background-repeat: no-repeat;            
+  background-position: center;             
+  background-size: cover;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  color: rgb(63, 137, 66);
+}
+ .locs{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+ .loc{
+text-align: center;
+ }
+ .card{
+  padding: 5px;
+ }
+ body {
+  overflow-x: hidden;
+}
