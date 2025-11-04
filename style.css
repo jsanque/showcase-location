@@ -3,7 +3,7 @@
 }
 .hero {
   height: 100vh;
-  background: url('bg-hero.jpeg');
+  background: url('images/bg-hero.jpeg');
   background-repeat: no-repeat;            
   background-position: center;             
   background-size: cover;   
@@ -12,7 +12,7 @@
   align-items: center;
   text-align: center;
   position: relative;
-  color: rgb(63, 137, 66);
+  color: #14532d;;
 }
  .locs{
   justify-content: center;
@@ -24,7 +24,14 @@ text-align: center;
  }
  .card{
   padding: 5px;
+  border: none;
+  border-radius: 12px;
  }
- body {
+body {
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+.card h5{
+  font-weight: bold;
 }
