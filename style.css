@@ -35,3 +35,6 @@ body {
 .card h5{
   font-weight: bold;
 }
+#about, #location, #cuisine {
+    padding-top: 20px; /* optional extra spacing */
+}

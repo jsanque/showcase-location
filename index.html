@@ -26,7 +26,10 @@
                     <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#location">Locations</a>
+                    <a class="nav-link" href="#location">Places</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cuisine">Cuisine</a>
                 </li>
             </ul>
         </div>
@@ -40,11 +43,11 @@
         </div>
     </section>
 
-    <div class="container my-5" id="about">
+    <section class="container mt-5 py-5" id="about">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="about">
-                    <h3>About Italy </h3>
+                    <h2>About Italy </h2>
                     <p>Italy, located in southern Europe, is a country steeped in history, culture, and natural beauty.
                         It is famously known as the birthplace of the Roman Empire, whose influence shaped much of
                         Western civilization, law, architecture, and politics. Italy also played a pivotal role during
@@ -62,10 +65,18 @@
                 <img src="images/italy-map.jpg" class="img-fluid rounded" alt="Italy">
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="locs" id="location">
-        <h2 class="p-3 text-center">Famous Tourist Spots</h2>
+    <section class="locs py-5 mt-5" id="location">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="display-5 mb-4 text-center">Famous Tourist Spots</h2>
+                    <p class="text-center text-muted mb-5">Discover Italy’s most iconic landmarks, where history, culture, and beauty come alive.</p>
+                </div>
+            </div>
+        </div>
+
         <div class="loc my-4">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
@@ -192,10 +203,110 @@
                     </div>
                 </div>
             </div>
+    </section>
+
+    <section class="cuisine py-5" id="cuisine">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="display-5 mb-4 text-center">Famous Italian Cuisine</h2>
+                    <p class="text-center text-muted mb-5"> Italy’s culinary heritage is a feast for the senses. From
+                        handmade pasta and wood-fired pizza to indulgent desserts,
+                        every dish reflects generations of tradition, fresh ingredients, and bold flavors that have
+                        captured hearts worldwide.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div id="cuisineCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#cuisineCarousel" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#cuisineCarousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#cuisineCarousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#cuisineCarousel" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#cuisineCarousel" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                        </div>
+
+                        <div class="carousel-inner" style="height: 500px;">
+
+                            <div class="carousel-item active" style="height: 500px;">
+                                <img src="images/carbonara.jpg" class="d-block w-100"
+                                    style="height: 100%; object-fit: cover;">
+                                <div class="carousel-caption bg-dark bg-opacity-75 rounded p-2 p-md-3">
+                                    <h5>Pasta Carbonara</h5>
+                                    <p class="d-none d-sm-block">Classic Roman pasta made with eggs, pecorino
+                                        cheese, pancetta, and black pepper, creamy, simple, and full of flavor.</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item" style="height: 500px;">
+                                <img src="images/pizza.jpg" class="d-block w-100"
+                                    style="height: 100%; object-fit: cover;">
+                                <div class="carousel-caption bg-dark bg-opacity-75 rounded p-2 p-md-3">
+                                    <h5>Pizza Margherita</h5>
+                                    <p class="d-none d-sm-block">The pride of Naples, thin crust topped with tomato
+                                        sauce, mozzarella cheese, and fresh basil, representing the Italian flag.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item" style="height: 500px;">
+                                <img src="images/tiramisu.jpg" class="d-block w-100"
+                                    style="height: 100%; object-fit: cover;">
+                                <div class="carousel-caption bg-dark bg-opacity-75 rounded p-2 p-md-3">
+                                    <h5>Tiramisu</h5>
+                                    <p class="d-none d-sm-block">A beloved Italian dessert with layers of
+                                        espresso-soaked ladyfingers, mascarpone cream, and cocoa powder.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="height: 500px;">
+                                <img src="images/gelato.jpg" class="d-block w-100"
+                                    style="height: 100%; object-fit: cover;">
+                                <div class="carousel-caption bg-dark bg-opacity-75 rounded p-2 p-md-3">
+                                    <h5>Gelato</h5>
+                                    <p class="d-none d-sm-block">Italy’s famous frozen dessert, smoother and denser
+                                        than ice cream, available in delightful flavors like pistachio and hazelnut.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item" style="height: 500px;">
+                                <img src="images/lasagna.jpg" class="d-block w-100"
+                                    style="height: 100%; object-fit: cover;">
+                                <div class="carousel-caption bg-dark bg-opacity-75 rounded p-2 p-md-3">
+                                    <h5>Lasagna alla Bolognese</h5>
+                                    <p class="d-none d-sm-block">Layered pasta baked with rich Bolognese sauce,
+                                        creamy béchamel, and melted cheese, the ultimate Italian comfort food.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#cuisineCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#cuisineCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"></script>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 <footer class="bg-dark text-light text-center py-4 mt-5">
     <div class="container">
