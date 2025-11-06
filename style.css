@@ -12,7 +12,8 @@
   align-items: center;
   text-align: center;
   position: relative;
-  color: #14532d;;
+  color: #14532d;
+  width: 100%;
 }
  .locs{
   justify-content: center;
@@ -35,6 +36,5 @@ body {
 .card h5{
   font-weight: bold;
 }
-#about, #location, #cuisine {
-    padding-top: 20px; /* optional extra spacing */
-}
+
+
