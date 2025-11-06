@@ -36,5 +36,8 @@ body {
 .card h5{
   font-weight: bold;
 }
-
+.locs .row {
+  margin-left: 0;
+  margin-right: 0;
+}
 
