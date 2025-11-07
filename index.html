@@ -12,28 +12,35 @@
 
 <body>
 
-    <nav class="navbar bg-body-tertiary rounded-pill mx-3 mt-3 sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="https://i.pinimg.com/736x/0d/48/f9/0d48f91fdcb4e92f219a3c72f87a24eb.jpg" alt="Bootstrap"
-                    width="30" height="24">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mx-3 mt-3 sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="https://i.pinimg.com/736x/0d/48/f9/0d48f91fdcb4e92f219a3c72f87a24eb.jpg" alt="Logo" width="30"
+                    height="24" class="me-2">
             </a>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#location">Places</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#cuisine">Cuisine</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: green;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">Places</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cuisine">Cuisine</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
+
 
     <section class="hero">
         <div class="hero-content">
@@ -45,27 +52,32 @@
 
     <section class="about" id="about">
         <div class="container-fluid mt-5 py-5">
-<div class="row align-items-center">
-            <div class="col-md-6">
-                <div class="about">
-                    <h2>About Italy </h2>
-                    <p>Italy, located in southern Europe, is a country steeped in history, culture, and natural beauty.
-                        It is famously known as the birthplace of the Roman Empire, whose influence shaped much of
-                        Western civilization, law, architecture, and politics. Italy also played a pivotal role during
-                        the Renaissance, producing legendary artists, thinkers, and scientists such as Leonardo da
-                        Vinci, Michelangelo, and Galileo Galilei. Beyond its historic landmarks, Italy offers
-                        breathtaking landscapes from the rolling hills of Tuscany to the dramatic coastline of Amalfi
-                        and the lakes of northern Italy. Its vibrant cities, such as Rome, Florence, and Venice, are
-                        hubs of art, architecture, and tradition, while its culinary heritage, from pasta and pizza to
-                        fine wines and cheeses, makes it a gastronomic paradise. Italy’s blend of ancient history,
-                        artistic achievement, scenic beauty, and culinary delights continues to captivate millions of
-                        visitors from around the world.</p>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="about">
+                        <h2>About Italy </h2>
+                        <p>Italy, located in southern Europe, is a country steeped in history, culture, and natural
+                            beauty.
+                            It is famously known as the birthplace of the Roman Empire, whose influence shaped much of
+                            Western civilization, law, architecture, and politics. Italy also played a pivotal role
+                            during
+                            the Renaissance, producing legendary artists, thinkers, and scientists such as Leonardo da
+                            Vinci, Michelangelo, and Galileo Galilei. Beyond its historic landmarks, Italy offers
+                            breathtaking landscapes from the rolling hills of Tuscany to the dramatic coastline of
+                            Amalfi
+                            and the lakes of northern Italy. Its vibrant cities, such as Rome, Florence, and Venice, are
+                            hubs of art, architecture, and tradition, while its culinary heritage, from pasta and pizza
+                            to
+                            fine wines and cheeses, makes it a gastronomic paradise. Italy’s blend of ancient history,
+                            artistic achievement, scenic beauty, and culinary delights continues to captivate millions
+                            of
+                            visitors from around the world.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="images/italy-map.jpg" class="img-fluid rounded" alt="Italy">
                 </div>
             </div>
-            <div class="col-md-6 text-center">
-                <img src="images/italy-map.jpg" class="img-fluid rounded" alt="Italy">
-            </div>
-        </div>
         </div>
     </section>
 
@@ -74,7 +86,8 @@
             <div class="row">
                 <div class="col-12">
                     <h2 class="display-5 mb-4 text-center">Famous Tourist Spots</h2>
-                    <p class="text-center text-muted mb-5">Discover Italy’s most iconic landmarks, where history, culture, and beauty come alive.</p>
+                    <p class="text-center text-muted mb-5">Discover Italy’s most iconic landmarks, where history,
+                        culture, and beauty come alive.</p>
                 </div>
             </div>
         </div>

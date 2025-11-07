@@ -40,4 +40,6 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-
+.navbar{
+  border-radius: 5px;
+}
